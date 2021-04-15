@@ -49,4 +49,24 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.75;
     cursor: not-allowed;
   }
+
+  .react-modal-overlay {
+    background: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+  }
+  .react-modal-content {
+    width: 100%;
+    max-width: 576px;
+    background: var(--shape);
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.25rem;
+  }
 `;
